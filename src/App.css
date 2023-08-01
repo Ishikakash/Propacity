@@ -1,0 +1,87 @@
+/* App.css */
+body {
+  background-color: navy;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* CategoryList.css */
+.CategoryList {
+  margin-bottom: 20px;
+}
+
+.CategoryList h2 {
+  margin-bottom: 10px;
+}
+
+.CategoryList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.CategoryList li {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* ResourceList.css */
+.ResourceList {
+  margin-bottom: 20px;
+}
+
+.ResourceList h2 {
+  margin-bottom: 10px;
+}
+
+.ResourceList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ResourceList li {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* ResourceDetails.css */
+.ResourceDetails {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.ResourceDetails h2 {
+  margin-bottom: 10px;
+}
+
+/* DropdownMenu.css */
+.DropdownMenu select {
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+}
+
+/* Remove default select arrow */
+.DropdownMenu select::-ms-expand {
+  display: none;
+}
+
+/* Style the options dropdown */
+.DropdownMenu select option {
+  background-color: navy;
+  color: white;
+}
